@@ -91,10 +91,10 @@ const validateInput = () => {
     showMessage('Please provide a message')
   } else if (email && textarea) {
     emailjs.sendForm(
-      'service_rvlqach',
-      'template_d32ix5s',
+      'service_9ff0soj',
+      'template_ut8lftb',
       contactForm,
-      'lD25U1N6WN3XbKSFV',
+      'Z1A2ugVLFrHA6e7Gc',
     )
     setSuccess(emailInput.parentElement)
     setSuccess(textareaInput.parentElement)

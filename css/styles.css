@@ -715,4 +715,8 @@ textarea {
   .message {
     bottom: 100px;
   }
+  .me {
+    margin-left: 18em;
+  }
 }
+
